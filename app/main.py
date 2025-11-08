@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from prediction_helper import predict
 
 # ---------------------------------------
 # Streamlit UI
