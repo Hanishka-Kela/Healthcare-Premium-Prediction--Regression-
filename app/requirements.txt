@@ -7,19 +7,18 @@ numpy==2.3.4
 
 # Machine Learning
 scikit-learn==1.6.0
+xgboost==2.1.1
 joblib==1.4.2
 
-# Visualization (optional but useful if you ever add charts)
+# Visualization (optional but useful if you expand the app)
 matplotlib==3.9.2
 seaborn==0.13.2
 altair==5.5.0
 
-# Web and Misc (required for Streamlit + sklearn deps)
+# Streamlit and Web Dependencies
 protobuf==6.33.0
 requests==2.32.3
 python-dateutil==2.9.0.post0
 pytz==2025.2
 tzdata==2025.2
-
-# Optional (good practice for Streamlit cloud stability)
 watchdog==6.0.0
